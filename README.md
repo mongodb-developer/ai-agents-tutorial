@@ -6,7 +6,7 @@ This repository contains everything needed to run a self-contained AI agents tut
 
 You will be working in a Jupyter Notebook in a GitHub Codespace throughout this lab. A codespace is a cloud-hosted, containerized development environment that comes pre-configured with all the tools you need to run this tutorial.
 
-Navigate to [this](https://github.com/codespaces/new/mongodb-developer/ai-agents-tutorial?quickstart=1) link. You will be prompted to sign into GitHub if you haven't already. Once signed in, click the **Create new codespace** button to create a new codespace.
+To create a codespace, click the Code button on the repo's home page. Under the Codespaces tab, click **Create a codespace on main**. You will be prompted to sign into GitHub if you haven't already.
 
 ![screenshot](screenshots/create-codespace.png)
 

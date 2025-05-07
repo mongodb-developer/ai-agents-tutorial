@@ -1,0 +1,32 @@
+{
+    "name": "Jupyter Notebook with MongoDB",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "lab-runner",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [
+        8888,
+        27017
+    ],
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "containerEnv": {
+        "SERVERLESS_URL": "https://vtqjvgchmwcjwsrela2oyhlegu0hwqnw.lambda-url.us-west-2.on.aws/",
+        "MONGODB_URI": "mongodb://admin:mongodb@mongodb:27017/"
+    },
+    "updateContentCommand": "python3 -m pip install -r requirements.txt",
+    "postCreateCommand": "",
+    "customizations": {
+        "codespaces": {
+            "openFiles": []
+        },
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-tools.vscode-jupyter",
+                "mongodb.mongodb-vscode"
+            ]
+        }
+    }
+}

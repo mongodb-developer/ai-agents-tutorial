@@ -1,0 +1,28 @@
+services:
+  lab-runner:
+    image: mcr.microsoft.com/devcontainers/universal:2
+    volumes:
+      - ../..:/workspaces:cached
+    depends_on:
+      - mongodb
+    user: "1000:100"
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+
+    # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
+    network_mode: service:mongodb
+
+  mongodb:
+    image: mongodb/mongodb-atlas-local:latest
+    restart: unless-stopped
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      - MONGODB_INITDB_ROOT_USERNAME=admin
+      - MONGODB_INITDB_ROOT_PASSWORD=mongodb
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongodb_data:

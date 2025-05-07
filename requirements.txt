@@ -1,6 +1,6 @@
-pymongo
-langchain-google-genai
-langgraph
-langgraph-checkpoint-mongodb
-sentence_transformers
-tqdm
+pymongo==4.11.3
+langchain==0.3.25
+langchain-google-genai==2.1.4
+langgraph==0.4.2
+langgraph-checkpoint-mongodb==0.1.3
+sentence_transformers==4.1.0

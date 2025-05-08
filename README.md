@@ -6,7 +6,7 @@ Slides accompanying this tutorial can be found [here](https://docs.google.com/pr
 
 # Running the tutorial
 
-You will be working in a Jupyter Notebook in a GitHub Codespace throughout this lab. A codespace is a cloud-hosted, containerized development environment that comes pre-configured with all the tools you need to run this tutorial.
+The easiest way to run this tutorial is on GitHub Codespaces. A codespace is a cloud-hosted, containerized development environment that comes pre-configured with all the tools you need to run this tutorial.
 
 To create a codespace, click the Code button on the repo's home page. Under the Codespaces tab, click **Create a codespace on main**. You will be prompted to sign into GitHub if you haven't already.
 

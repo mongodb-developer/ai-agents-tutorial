@@ -1,5 +1,7 @@
 This repository contains everything needed to run a self-contained AI agents tutorial built using MongoDB, Gemini and LangGraph.
 
+Slides accompanying this tutorial can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vSFNtJI9CixQb-AEfJ_VQj7LiPSVH3iYajDu-CnHqPfi-spMf9Ls3d2E4ZlHM9VqtKVhtLpGRNg00co/).
+
 **NOTE:** In this lab, we will be using Jupyter Notebooks, which is an interactive Python environment. If you are new to Jupyter Notebooks, use [this](https://mongodb-developer.github.io/vector-search-lab/docs/dev-env/jupyter-notebooks) guide to familiarize yourself with the environment.
 
 # Running the tutorial
